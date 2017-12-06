@@ -35,6 +35,9 @@
   <project path="vendor/dot" name="android_vendor_dot" remote="dot" />
   <project path="vendor/extras" name="vendor_extras" remote="dot" />
 
+ <!-- external -->
+  <project path="external/tinycompress" name="external_tinycompress" remote="dot" />
+
  <!-- hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
