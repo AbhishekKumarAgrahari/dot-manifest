@@ -4,14 +4,14 @@
 
 
 
-Getting Started
----------------
+WORK IN PROGRESS. BUILD AT YOUR OWN RISK, MIGHT MAKE YOUR DEVICE USELESS JUST LIKE YOU DID WITH YOUR LIFE BY TAKING UP THIS RISK.
+-----------------------------------------------------------------------------------------------------------------------------------
 
 To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository, use a command like this:
 
-    repo init -u git://github.com/DotOS/manifest.git -b dot-n
+    repo init -u git://github.com/DotOS/manifest.git -b dot-o
 
 Then to sync up:
 
