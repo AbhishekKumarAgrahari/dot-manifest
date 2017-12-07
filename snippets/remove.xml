@@ -93,6 +93,7 @@
 
   <!-- External repos -->
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/selinux" />
 
   <!-- platform -->
   <remove-project name="platform/system/media" />

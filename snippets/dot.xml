@@ -62,6 +62,7 @@
   <project path="external/powertop" name="LineageOS/android_external_powertop" remote="github" revision="lineage-15.0" />
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="github" revision="lineage-15.0" />
   <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
+  <project path="external/selinux" name="external_selinux" remote="dot" />
 
  <!-- hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
