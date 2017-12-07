@@ -85,12 +85,17 @@
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/native" />
 
   <!-- Packages repos -->
   <remove-project name="platform/packages/apps/Settings" />
 
   <!-- External repos -->
   <remove-project name="platform/external/tinycompress" />
+
+  <!-- platform -->
+  <remove-project name="platform/system/media" />
 
   <!-- Toolchain repos -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />

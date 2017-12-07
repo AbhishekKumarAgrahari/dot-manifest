@@ -27,6 +27,8 @@
 
  <!-- frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="dot" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="dot" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="dot" />
  
  <!-- packages -->
  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dot" /> 
@@ -37,6 +39,9 @@
 
  <!-- external -->
   <project path="external/tinycompress" name="external_tinycompress" remote="dot" />
+
+ <!-- platform -->
+  <project path="system/media" name="android_system_media" remote="dot" />
 
  <!-- hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
