@@ -96,6 +96,8 @@
 
   <!-- platform -->
   <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/core" />
 
   <!-- Toolchain repos -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />

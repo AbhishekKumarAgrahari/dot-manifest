@@ -6,6 +6,10 @@
           revision="oreo-mr1"
           fetch="https://github.com/PixelExperience/" />
 
+ <!-- CAF remote -->
+  <remote  name="caf"
+           fetch="https://source.codeaurora.org/" />
+
  <!-- general -->
   <project path="build/make" name="android_build" remote="dot" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -37,11 +41,27 @@
   <project path="vendor/dot" name="android_vendor_dot" remote="dot" />
   <project path="vendor/extras" name="vendor_extras" remote="dot" />
 
- <!-- external -->
-  <project path="external/tinycompress" name="external_tinycompress" remote="dot" />
-
  <!-- platform -->
   <project path="system/media" name="android_system_media" remote="dot" />
+  <project path="system/vold" name="system_vold" remote="dot" />
+  <project path="system/core" name="android_system_core" remote="dot" />
+
+ <!-- qcom common -->
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="dot" />
+
+ <!-- external -->
+  <project path="external/tinycompress" name="external_tinycompress" remote="dot" />
+  <project path="external/brctl" name="quic/la/platform/external/brctl" remote="caf" revision="LA.AF.1.2.1_rb1.27" />
+  <project path="external/ebtables" name="LineageOS/android_external_ebtables" remote="github" revision="lineage-15.0" />
+  <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="lineage-15.0" />
+  <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="lineage-15.0" />
+  <project path="external/json-c" name="quic/la/platform/external/json-c" remote="caf" revision="android-external.lnx.2.9.1.r5-rel" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-15.0" />
+  <project path="external/libnfc-nxp" name="external/gigabyte/platform/external/libnfc-nxp" remote="caf" revision="caf/LA.AF.1.1.1_rb1.18" />
+  <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-15.0" />
+  <project path="external/powertop" name="LineageOS/android_external_powertop" remote="github" revision="lineage-15.0" />
+  <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="github" revision="lineage-15.0" />
+  <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
 
  <!-- hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
